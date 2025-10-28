@@ -2,7 +2,7 @@ from battery.core import Battery
 
 def main():
     # Create a battery object
-    bat = Battery(capacity_mwh=2, power_mw=1, efficiency=0.9)
+    bat = Battery(capacity_mwh=2, power_mw=2, efficiency=0.9)
 
     print("Initial SOC:", bat.get_soc_percent(), "%")
 
